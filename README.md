@@ -1,5 +1,22 @@
 # 3D Mesh Render
-This was originally a. It is for loading and visualizing 3D models for 3D printer applications.
+This was originally a code challenge for InkBit back in 2020. It is for loading and visualizing 3D models for 3D printer applications.
+It uses ThreeJS and WebGL.
+
+## To run 
+>npm install
+>node uiserver.js
+
+In a webbrowser go to localhost:9000
+
+Tested on Chrome and Windows 10.
+
+source code:
+https://github.com/mrdoob/three.js/
+
+Interactive demos.
+https://threejs.org/examples/#misc_controls_transform
+
+For more information, go to "./doc" folder.
 
 ## Features Added
 ### Basic Functions:
@@ -29,18 +46,4 @@ This was originally a. It is for loading and visualizing 3D models for 3D printe
 - Make the data immutable so that it would be easier to test. And/or convert it into a React project as suggested.
 - Write tests! (like with Jest, for instance) I know the code is quite breakable right now since I didn’t write tests for it…
 
-## To run 
->npm install
->node uiserver.js
 
-In a webbrowser go to localhost:9000
-
-Tested on Chrome and Windows 10.
-
-source code:
-https://github.com/mrdoob/three.js/
-
-Interactive demos.
-https://threejs.org/examples/#misc_controls_transform
-
-For more information, go to "./doc" folder.
